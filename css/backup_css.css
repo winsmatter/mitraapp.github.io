@@ -1,0 +1,69 @@
+.select-container {
+    position: relative;
+    width: 98%;
+margin: 0 auto;
+padding: 25px;
+}
+  
+select {
+    border: 1px solid #cccccc;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance:none;
+    width: 100%;
+    height: 50px;
+    line-height: 35px;
+    background: #FFF;
+    
+    
+    text-transform: uppercase;
+    outline:none;
+    padding-left: 5px;
+    background-image:
+      -webkit-gradient(linear, top, bottom, from(#eb2d2f), to(#f86c68));
+  
+  /* Safari 5.1, iOS 5.0-6.1, Chrome 10-25, Android 4.0-4.3 */
+    background-image:
+    -webkit-linear-gradient(top, #eb2d2f, #f86c68);
+
+  /* Firefox 3.6 - 15 */
+  background-image:
+    -moz-linear-gradient(top, #eb2d2f, #f86c68);
+
+  /* Opera 11.1 - 12 */
+  background-image:
+    -o-linear-gradient(top, #eb2d2f, #f86c68);
+
+  /* Opera 15+, Chrome 25+, IE 10+, Firefox 16+, Safari 6.1+, iOS 7+, Android 4.4+ */
+  background-image:
+    linear-gradient(to bottom, #eb2d2f, #f86c68);
+
+}
+
+select option
+{
+  font-size: 16px;
+}
+select:-moz-focusring {
+    color: transparent;
+    text-shadow: 0 0 0 #000;
+}
+  
+select::-ms-expand {
+    display: none;
+}
+  
+.select-arrow {
+    background: url('../img/arrow.png') no-repeat right;
+    right:27px;
+    top:0px;
+    width:30px;
+    height:35px;
+    position:absolute;
+    display:block;
+    z-index: 10;
+    margin: 0 0 0 0;
+    pointer-events:none;
+    font-size: 18px;
+    padding: 50px;
+}
